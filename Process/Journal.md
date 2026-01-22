@@ -1,7 +1,7 @@
 # Week 1 – Make-A-Thing
 
 **Project:** Pac-Man Variation – Inverted Authority Mode  
-**Date:** January 15, 2026 (project start)
+**Date:** January 15 - 22, 2026 (project start)
 
 ## Overview
 
