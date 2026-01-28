@@ -35,4 +35,3 @@ By limiting the scope to movement and boundaries, it became easier to understand
 The next step is to add falling objects and collision detection so the basket can catch items.  
 After that, a simple scoring system and game-over condition will be implemented to turn this into a complete mini-game.
 
-Completing this exercise will help build confidence with Unity before moving on to more complex interactions.
