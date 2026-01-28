@@ -14,6 +14,7 @@ Walls cannot be created freely; the player must first remove an existing wall to
 # Week 2 – Unity Basics
 
 **Project:** Basket Movement Exercise
+
 **Date:** January 22 – 29, 2026
 
 ## What
