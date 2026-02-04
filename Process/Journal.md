@@ -35,9 +35,24 @@ After that, a simple scoring system and game-over condition will be implemented 
 
 # Week 3 – Unity Basics II
 
-**Project:** Basket Movement Exercise (completed)
+**Project:** Basket Movement Exercise (completed)  
+**Date:** January 29 – February 5, 2026
 
-**Date:** 1/29 – 2/5, 2026
+## What
+This week builds directly on last week’s basket movement exercise by turning it into a simple playable prototype. Using movement, colliders, and basic instantiation, we created a mini-game where objects fall from the top of the screen and the player controls a basket to catch them.
+
+The basket movement from last week was reused, and falling objects were added using prefabs. Collision detection was implemented so that when an object enters the basket’s collider, it is counted as a successful catch. A basic scoring system was added to track how many objects the player collects.
+
+## Why
+The goal of this exploration is to test whether a small set of core mechanics could work together as a system. Specifically, this prototype focuses on how movement, collisions, and score tracking interact in real time.
+
+By keeping the mechanics simple, it was easier to understand how Unity handles collisions, object instantiation, and state changes during gameplay. This also helped clarify how small logic changes can quickly affect the overall feel of a game.
+
+## What Next
+If this prototype were to be explored further, the next step would be to introduce variation and challenge. For example, different types of falling objects could be added, including ones that reduce the score or trigger a game-over state.
+
+Other possible extensions include increasing difficulty over time, adding visual or sound feedback when items are caught, or experimenting with different control schemes. 
+
 ## Week 3 — Class Notes 
 
 ### Three Corners of Prototyping
