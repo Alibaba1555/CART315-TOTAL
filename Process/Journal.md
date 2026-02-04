@@ -38,6 +38,93 @@ After that, a simple scoring system and game-over condition will be implemented 
 **Project:** Basket Movement Exercise (completed)
 
 **Date:** 1/29 – 2/5, 2026
+## Week 3 — Class Notes 
+
+### Three Corners of Prototyping
+
+We discussed three main “corners” of prototyping, with **integration** at the center.
+
+1. **Look & Feel Prototype**  
+   Focuses on the game’s appearance and overall visual style.  
+   It shows what the game is going to look like and helps attract interest and investment.
+
+2. **Role / Flow Prototype**  
+   Focuses on user actions and steps.  
+   It answers questions like:  
+   - If the player clicks this button, what happens next?  
+   - If they choose a different option, what is the next step?  
+   Examples include task flows such as taking notes or creating tasks.
+
+3. **Implementation / Technical Prototype**  
+   Focuses on technology and feasibility.  
+   The main question is whether the idea can actually work with the available tools and technology.
+
+These three areas meet in the center through **integration**.
+
+### Why Start From These Three Corners?
+
+- Faster and cheaper than building a full product  
+- Helps generate interest early  
+- Allows early testing of whether a game or product could be successful  
+
+---
+
+### Prototype Goals
+
+1. **Understand**  
+   - The problem  
+   - The target audience  
+   - The proposed solution  
+
+   Example:  
+   The personal transport devices around 2016 failed partly because they were not tested in extreme or real-world conditions. They assumed wide sidewalks, but many European cities have narrow streets and stairs, making the product impractical and expensive.
+
+2. **Communicate**  
+   - Use sketches or simple visuals to explain ideas clearly  
+   - Helps teams and stakeholders understand the concept quickly
+
+3. **Test and Improve**  
+   - Observe how people react to the prototype  
+   - Test whether users can understand where to go or what to do  
+   - Example: user guidance in games or platforms like Amazon
+
+---
+
+### Prototype Fidelity
+
+1. **Low Fidelity** — test basic assumptions  
+   - Paper prototypes  
+   - Storyboards  
+   - Wireframes  
+   - Simple circuit building  
+
+2. **Mid Fidelity** — more refined assumptions  
+   - Clickable prototypes  
+   - Style guides  
+   - Coded prototypes  
+   - Tools like InVision or Adobe XD  
+
+3. **High Fidelity** — small details  
+   - Button size  
+   - Button color  
+   - Visual polish and fine interactions  
+
+---
+
+### Types of Fidelity
+
+- Visual  
+- Breadth (how much of the system is covered)  
+- Depth (how detailed each part is)  
+- Interactivity  
+- Data model (content)
+
+---
+
+### Choosing Fidelity
+
+The type and level of fidelity should be chosen based on the question being asked.  
+For example: *“How does a user enter this system?”* requires different fidelity choices than *“Is this button color readable?”*.
 
 ## Chapters 20–24 — Lecture notes (C# / Unity)
 **Variables & Scope**
