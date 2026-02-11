@@ -191,5 +191,8 @@ For example: *“How does a user enter this system?”* requires different fidel
 - Always protect against `null`
 - Avoid float equality checks
 
+# Week 4 – Low-Fidelity Prototype — Backrooms-Inspired Unity Game
+
+**Date:** February 5 – February 12, 2026
 
 
