@@ -200,6 +200,8 @@ This week I focused on making a low-fidelity prototype for my game concept befor
 
 For the prototype, I made quick floorplan sketches and a simple level flow for five layers (Level 1–5). Each level is not a totally different map, but a different “state” of the same system: lighting shifts, sound becomes less stable, and anomalies become more frequent. I also outlined a basic gameplay loop: explore → notice anomalies → collect 3 “reality anchors” → unlock an exit to the next level. The anomalies are the main design element (lights flicker, sound cuts, wrong door, space changes when you turn around), and I listed a small set of anomaly events that could be implemented cheaply.
 ![Modular Level Sketch](images/week41.png)
+![Modular Level Sketch](images/week43.png)
+![Modular Level Sketch](images/week44.png)
 
 ## Why
 Because this is my first time making a Unity game, I wanted to avoid jumping into production too early and getting stuck on technical problems without knowing what I’m actually building. The low-fidelity stage helped me clarify what the “Backrooms feeling” should come from: not high-poly graphics, but repetition, uncertainty, and subtle rule-breaking.
