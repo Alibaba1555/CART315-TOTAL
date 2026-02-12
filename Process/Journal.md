@@ -196,11 +196,110 @@ For example: *“How does a user enter this system?”* requires different fidel
 **Date:** February 5 – February 12, 2026
 
 ## What
+This week we focused on restructuring the ball system so that it becomes the central controller of scoring, pacing, and round resets for the breakOut game.
+The ball now manages:
 
+- Scoring system: each brick now awards points when hit, so every successful bounce has a clear reward. Players gain points when the ball hits the left or right wall.
+
+- The ball resets to the center after a point is scored
+
+- Lives / penalty: when the ball goes out of bounds, the player loses a life. This turns “missing the ball” into a meaningful consequence instead of just a reset.
+
+- The launch direction is randomized each round
+
+- Different bounce behavior (material-based): we added collision logic that changes feedback and speed depending on what the ball hits. In my OnCollisionEnter2D, I used tags like "Wall" and "Paddle" to trigger different sound pitch.
+
+- UI + ending state: I added a life bar / life display, a Game Over screen, and a final score display so the game has a clear endpoint and summary of performance.
+
+Overall, the prototype now supports a basic loop: hit bricks → gain score → try not to lose lives → game over → show final score. Compared to previous weeks, the prototype feels more like a playable game rather than just a physics experiment.
 
 ## Why
+My goal this week was to introduce structure and pacing.
 
+- Adding scoring gives players a clear objective. Points turn brick hits into measurable progress, which helps the player understand what “good play” looks like and motivates improvement. 
+
+- Lives create pressure and force the player to read the ball’s movement more carefully. Without a penalty, missing the ball doesn’t matter, and the game feels flat.
+
+- Adding resets introduces rhythm between rounds.
+
+- Adding a short delay before relaunch reduces chaos and makes the game easier to read.
+
+- Even small changes like sound variation helped make different interactions feel intentional.
+
+Overall, I wanted to move from “objects colliding” to a system that has beginnings, endings, and measurable progress. And Game Over + final score gives closure.
 
 ## What Next
+If I were to continue improving this game in the future, I could add: 
+
+---
+
+### 1. Gameplay Mechanics Improvements
+
+#### Progressive Difficulty
+- Gradually increase ball speed after each successful paddle hit  
+- Introduce a maximum speed cap to prevent loss of control  
+- Create escalating tension over time  
+
+#### Brick Variations
+- Strong bricks (require multiple hits)  
+- Speed-altering bricks  
+- Special bricks that trigger multi-ball  
+
+#### Power-Ups (This could be a time-limited effect that breaks special bricks.)
+- Paddle extension  
+- Slow motion effect  
+- Multi-ball mode  
+- Temporary shield  
+
+#### Combo System
+- Reward consecutive hits without losing a life  
+- Add score multipliers for skilled play  
+
+---
+
+### 2. Game Structure Improvements
+
+#### Game Manager System
+- Separate ball physics from scoring and game state logic  
+- Improve modularity and scalability  
+
+#### Clear Game States
+- Start Screen  
+- Countdown  
+- Playing  
+- Point Scored  
+- Game Over  
+- Restart  
+
+#### Win Conditions
+- First to 10 points  
+- Clear end-of-game resolution  
+
+#### Level System
+- Different brick layouts  
+- Increasing difficulty per level  
+
+---
+
+### 3. Player Experience Enhancements
+
+#### Visual Feedback
+- Particle effects on brick hit  
+- Screen shake on impact  
+- Flash effect when losing a life  
+
+#### Audio Layering
+- Scoring sound  
+- Game over sound  
+- Dynamic background music based on intensity  
+
+#### UI Animation
+- Animated score updates  
+- More expressive life bar  
+
+#### Pacing Control
+- Adjust delay timing between rounds  
+- Experiment with tempo variations  
+
 
 
