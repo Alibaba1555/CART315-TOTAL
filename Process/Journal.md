@@ -193,6 +193,7 @@ For example: *“How does a user enter this system?”* requires different fidel
 
 # Week 4 – Breakout Prototype
 **Project:** Breakout (2D)
+
 **Date:** February 5 – February 12, 2026
 
 ## What
