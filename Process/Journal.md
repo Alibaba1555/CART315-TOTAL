@@ -245,7 +245,7 @@ If I were to continue improving this game in the future, I could add:
 - Speed-altering bricks  
 - Special bricks that trigger multi-ball  
 
-#### Power-Ups (This could be a time-limited effect that breaks special bricks.)
+#### Power-Ups (This could be a time-limited effect when player breaks some special bricks.)
 - Paddle extension  
 - Slow motion effect  
 - Multi-ball mode  
@@ -259,7 +259,7 @@ If I were to continue improving this game in the future, I could add:
 
 ### 2. Game Structure Improvements
 
-#### Game Manager System
+#### Game Manager System (structrue)
 - Separate ball physics from scoring and game state logic  
 - Improve modularity and scalability  
 
@@ -272,7 +272,7 @@ If I were to continue improving this game in the future, I could add:
 - Restart  
 
 #### Win Conditions
-- First to 10 points  
+- First to 10 points for example  
 - Clear end-of-game resolution  
 
 #### Level System
