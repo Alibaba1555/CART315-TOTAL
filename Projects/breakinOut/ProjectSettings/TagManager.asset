@@ -7,6 +7,9 @@ TagManager:
   - Brick
   - Paddle
   - Enemy
+  - Wall
+  - Reset
+  - Unbreakable
   layers:
   - Default
   - TransparentFX

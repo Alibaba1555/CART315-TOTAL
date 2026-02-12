@@ -191,36 +191,16 @@ For example: *“How does a user enter this system?”* requires different fidel
 - Always protect against `null`
 - Avoid float equality checks
 
-# Week 4 – Low-Fidelity Prototype — Backrooms-Inspired Unity Game
-
+# Week 4 – Breakout Prototype
+**Project:** Breakout (2D)
 **Date:** February 5 – February 12, 2026
 
 ## What
-This week I focused on making a low-fidelity prototype for my game concept before touching Unity. The idea is a Backrooms-inspired exploration experience where the player moves through repetitive liminal spaces, and the environment subtly changes over time. Instead of building a full map, I sketched a modular structure: small hallway/room “chunks” that can be repeated, rearranged, or swapped so the space feels endless.
 
-For the prototype, I made quick floorplan sketches and a simple level flow for five layers (Level 1–5). Each level is not a totally different map, but a different “state” of the same system: lighting shifts, sound becomes less stable, and anomalies become more frequent. I also outlined a basic gameplay loop: explore → notice anomalies → collect 3 “reality anchors” → unlock an exit to the next level. The anomalies are the main design element (lights flicker, sound cuts, wrong door, space changes when you turn around), and I listed a small set of anomaly events that could be implemented cheaply.
-**<img src="images/week41.png" width="60%" />**
-<p align="center">
-  <img src="images/week43.png" width="48%" />
-  <img src="images/week44.png" width="48%" />
-</p>
 
 ## Why
-Because this is my first time making a Unity game, I wanted to avoid jumping into production too early and getting stuck on technical problems without knowing what I’m actually building. The low-fidelity stage helped me clarify what the “Backrooms feeling” should come from: not high-poly graphics, but repetition, uncertainty, and subtle rule-breaking.
 
-The five-level structure is also a design decision, not just “more content.” I’m using levels as a psychological progression: familiar → suspicious → disoriented → threatened → dissolved. Keeping one consistent system and changing parameters (light, sound, anomaly rate, sanity drain) makes the scope realistic while still showing strong concept development. This prototype stage also forced me to define what counts as success for the demo: if the player can get lost, notice changes, and feel tension building—even with simple geometry—then the design is working.
-**<img src="images/week42.png" width="60%" />**
 
 ## What Next
-Next week I’ll start the Unity demo with a small, controlled scope: one playable level (Level 1) plus a lightweight framework that can scale into the other levels. My goals are:
 
-- Build a basic first-person controller and a simple modular hallway/room set (8–12 prefabs).
-
-- Implement a sanity/pressure system that increases over time and affects anomaly probability.
-
-- Create an Anomaly Manager with 3–5 anomalies (light flicker, sound cut, wrong door, room swap behind the player).
-
-- Add a simple objective: collect 3 reality anchors to spawn an exit door.
-
-If time allows, I’ll add a minimal “presence entity” (non-combat) that only appears under high sanity pressure, mainly to increase tension rather than create a full enemy system. The main priority is to prove the experience and rules in a small demo rather than expanding the map size.
 
