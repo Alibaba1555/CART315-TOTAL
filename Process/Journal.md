@@ -315,6 +315,10 @@ The opening area is set on a fishing boat. The character starts on the deck, and
 After that, I also added floating wood pieces in the ocean as the main platforming path. Each piece has an animation that makes it drift and bob up and down, and sometimes slide a little side-to-side. Visually it looks more natural (like objects actually floating), but functionally it becomes a moving platform system. The player has to step onto these pieces to cross, so the animation becomes a real challenge: you have to watch the pattern, wait for the right moment, and commit to a jump.
 
 One thing I paid attention to is that the motion can’t be “random” if it’s meant to be playable. If the platform moves unpredictably, it stops feeling like a skill-based obstacle and starts feeling like luck. So I kept the motion looped and readable, and I tried to make the rhythm consistent enough that a player can learn it after failing once or twice.
+<p align="center">
+  <img src="images/01.gif" width="48%" />
+  <img src="images/02.gif" width="48%" />
+</p>
 
 ## Why
 I chose to focus on animation because I realized I often treat it as an “extra” that comes after mechanics are done. But in a lot of games I enjoy, moving environments are part of what makes the gameplay interesting, not because they look good, but because they create timing, tension, and decision-making. This week I wanted to test whether I could build that feeling using Unity’s animation workflow.
@@ -326,6 +330,7 @@ The animation of the floating wood platforms makes the world feel believable, bu
 This also made me think about how design systems can overlap. Normally, you’d separate “look” and “mechanics,” but here they become the same thing. The movement pattern is both a visual language (waves, floating) and a gameplay rule (timing, difficulty). When those two match, the game feels more coherent, and the player doesn’t need tutorials to understand what’s happening.
 
 So the deeper takeaway for me is: animation can be used as a design tool, not only for polish. It can control pacing, difficulty, and even the emotional tone of a space.
+<img src="images/03.gif" width="50%" />
 
 ## What next
 If I continue developing this prototype, I want to explore more ways to make animation-driven environments feel intentional and “designed”.
