@@ -303,4 +303,51 @@ If I were to continue improving this game in the future, I could add:
 - Experiment with tempo variations  
 
 
+# Week 5 – Animation as Gameplay Mechanic
+**Project:** Parkour / Platforming Test Game (Unity)
+**Date:** February 12 – February 19, 2026
 
+## What
+This week I built a small parkour prototype in Unity, mainly as a personal test project to apply what we learned about animation last week. Instead of treating animation as “just visuals,” I tried to make it part of the actual gameplay loop.
+
+The opening area is set on a fishing boat. The character starts on the deck, and the boat has a looping rocking animation to imitate waves. It’s a simple idea, but it immediately changes how the player experiences movement: even standing still feels slightly unstable, and jumping has a different “timing” compared to a flat ground. I liked that it communicates the environment without any explanation, the player feels the sea, not just sees it.
+
+After that, I also added floating wood pieces in the ocean as the main platforming path. Each piece has an animation that makes it drift and bob up and down, and sometimes slide a little side-to-side. Visually it looks more natural (like objects actually floating), but functionally it becomes a moving platform system. The player has to step onto these pieces to cross, so the animation becomes a real challenge: you have to watch the pattern, wait for the right moment, and commit to a jump.
+
+One thing I paid attention to is that the motion can’t be “random” if it’s meant to be playable. If the platform moves unpredictably, it stops feeling like a skill-based obstacle and starts feeling like luck. So I kept the motion looped and readable, and I tried to make the rhythm consistent enough that a player can learn it after failing once or twice.
+
+## Why
+I chose to focus on animation because I realized I often treat it as an “extra” that comes after mechanics are done. But in a lot of games I enjoy, moving environments are part of what makes the gameplay interesting, not because they look good, but because they create timing, tension, and decision-making. This week I wanted to test whether I could build that feeling using Unity’s animation workflow.
+
+The fishing boat is a good example. The rocking doesn’t just decorate the scene, it sets the mood and teaches a rule: the ground can shift. It also creates a small psychological effect. Even though it’s subtle, it changes how confident you feel when you move. It makes the space feel less “safe,” which fits the ocean theme and makes the start of the game feel more alive.
+
+The animation of the floating wood platforms makes the world feel believable, but it also forces the player to think differently. On a static platform, you can jump whenever you want. On a moving platform, you have to observe first, then act. That extra step is important because it changes the player from “just moving” into “reading the environment.” I think that’s a big part of what makes platforming feel engaging rather than repetitive.
+
+This also made me think about how design systems can overlap. Normally, you’d separate “look” and “mechanics,” but here they become the same thing. The movement pattern is both a visual language (waves, floating) and a gameplay rule (timing, difficulty). When those two match, the game feels more coherent, and the player doesn’t need tutorials to understand what’s happening.
+
+So the deeper takeaway for me is: animation can be used as a design tool, not only for polish. It can control pacing, difficulty, and even the emotional tone of a space.
+
+## What next
+If I continue developing this prototype, I want to explore more ways to make animation-driven environments feel intentional and “designed”.
+
+One direction is to expand the level design around animated obstacles:
+
+- platforms that move in different cycles (slow vs fast, vertical vs horizontal)
+
+- “safe” timing windows that reward patience and observation
+
+- sections where the movement gradually becomes more complex, so difficulty ramps naturally
+
+Another direction is to apply this idea to other genres, especially the kinds of projects I’m interested in long-term. I can imagine using animation for a moving maze where corridors shift over time, forcing the player to memorize patterns or wait for openings. Or a puzzle game where the environment is basically a clock, the level changes state through animation cycles and the player has to solve it by syncing their actions with the world.
+
+I also want to push it in a more atmospheric direction. In a future project (like a horror exploration or “Backrooms” style space), animation doesn’t have to be obvious. Subtle motion can make a place feel unsettling: walls that slightly drift, lights that pulse, objects that sway even when there’s no wind. If that motion is also tied to gameplay (ex: timing doors, shifting paths, hiding routes), it could make the experience feel more immersive and less like “a set of static rooms.”
+
+On the technical side, I want to get better at connecting animation systems with gameplay logic. Right now I’m using looping animations, but next I want to test:
+
+- using Animator states to change platform behavior (normal → unstable → safe)
+
+- triggering animation phases based on player proximity
+
+- mixing animation with physics carefully so it still feels consistent
+
+The main goal is to keep developing the idea that animation is not separate from mechanics. This week was my first attempt at that, and it made me more interested in designing worlds where motion is part of the rules, not just decoration.
