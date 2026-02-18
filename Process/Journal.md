@@ -330,7 +330,7 @@ The animation of the floating wood platforms makes the world feel believable, bu
 This also made me think about how design systems can overlap. Normally, you’d separate “look” and “mechanics,” but here they become the same thing. The movement pattern is both a visual language (waves, floating) and a gameplay rule (timing, difficulty). When those two match, the game feels more coherent, and the player doesn’t need tutorials to understand what’s happening.
 
 So the deeper takeaway for me is: animation can be used as a design tool, not only for polish. It can control pacing, difficulty, and even the emotional tone of a space.
-<img src="images/03.gif" width="50%" />
+<img src="images/03.gif" width="100%" />
 
 ## What next
 If I continue developing this prototype, I want to explore more ways to make animation-driven environments feel intentional and “designed”.
