@@ -305,6 +305,7 @@ If I were to continue improving this game in the future, I could add:
 
 # Week 5 – Animation as Gameplay Mechanic
 **Project:** Parkour / Platforming Test Game (Unity)
+
 **Date:** February 12 – February 19, 2026
 
 ## What
