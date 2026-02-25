@@ -374,8 +374,10 @@ Swapping:
 - Weapons
 - Generator
 - Booster
+<p align="center">
   <img src="images/arm.gif" width="48%" />
   <img src="images/y_658054a412da8.jpg" width="48%" />
+  </p>
 it does not just slightly adjust stats — it fundamentally changes:
 - Movement speed
 - Energy regeneration
@@ -409,7 +411,9 @@ Mechanically, this works because:
 ---
 3. Boss Design as System Stress Test
 To really understand how these systems come together, it’s useful to look at a specific example: the early boss fight against Armored Core VI: Fires of Rubicon’s Balteus.
+<p align="center">
   <img src="images/Bsgd7ZiyzejjZFaX4ErwvP.jpg" width="48%" />
+  </p>
 Balteus is overwhelming at first. It launches constant missile barrages, uses a pulse shield that needs to be broken, and follows up with heavy laser attacks. The screen fills with projectiles, and it feels chaotic.
 But mechanically, it’s actually very structured.
 This fight forces the player to engage with:
@@ -420,8 +424,10 @@ This fight forces the player to engage with:
 
 When I first approached it with a heavy armor build, I assumed I could tank through most of the damage. On paper, that sounded reasonable. But in practice, the missile tracking and shield pressure meant I was constantly stuck recovering, unable to reposition properly. The system exposed the weakness of my build.
 After switching to a lighter frame with higher burst damage, the fight changed completely. I had less margin for error, but I could control distance and timing much better.
+<p align="center">
   <img src="images/1693268863_508_Comment-battre-Ayre-dans-Armored-Core-6-AC6.jpeg" width="48%" />
   <img src="images/EcDNbgu82Ed2UAjGH2GMnS-1200-80.jpg" width="48%" />
+  </p>
 This is where the design is strong: the boss is not just a difficulty spike. It is a system check. If your understanding of movement, energy, and build synergy is shallow, you fail. If you adapt, the same systems that felt oppressive start to feel manageable.
 
 ---
