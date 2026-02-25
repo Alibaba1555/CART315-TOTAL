@@ -357,3 +357,109 @@ On the technical side, I want to get better at connecting animation systems with
 - mixing animation with physics carefully so it still feels consistent
 
 The main goal is to keep developing the idea that animation is not separate from mechanics. This week was my first attempt at that, and it made me more interested in designing worlds where motion is part of the rules, not just decoration.
+
+
+# Extra Credit – Design Journal - Game Analysis
+## Game Analysis: Armored Core VI
+
+---
+**What Makes the Game Mechanically Interesting**
+Armored Core VI: Fires of Rubicon is a high-speed mech action game built around one core idea: movement + resource management define combat outcomes.
+While I can't say it's a soul-like game, but since it's made by the compagnie that made Dark Souls (FromSoftware), I believe it incorporates many of their game-making philosophies.
+Although the narrative takes place on Rubicon 3, what makes the game compelling is not the story, but how the combat systems are structured.
+1. Build Customization as Mechanical Commitment
+The most important system in the game is customization.
+Swapping:
+- Frame
+- Weapons
+- Generator
+- Booster
+  <img src="images/arm.gif" width="48%" />
+  <img src="images/y_658054a412da8.jpg" width="48%" />
+it does not just slightly adjust stats — it fundamentally changes:
+- Movement speed
+- Energy regeneration
+- Stability
+- Engagement range
+- Risk tolerance
+This forces players to commit to a playstyle before combat even begins.
+This is mechanically powerful because:
+- Build decisions meaningfully constrain tactical options.
+- The game does not allow one universal solution.
+- Preparation becomes part of gameplay, not just setup.
+The design ensures that the “meta-game” (garage tuning) directly affects moment-to-moment combat flow.
+
+---
+2. Movement as Expressive System
+Combat revolves around four core movement states:
+- Walking (cost-free baseline)
+- Boost (sustained repositioning)
+- Glide (vertical positioning)
+- Quick Boost (instant dash / dodge)
+
+These are not cosmetic animations, they are resource-driven decisions tied to the EN (energy) bar.
+Quick Boost, especially, is critical. It consumes energy instantly and forces a trade-off:
+Dodge now? Or conserve energy for offense?
+This creates a constant tension between mobility and aggression.
+Mechanically, this works because:
+- Movement is readable
+- Energy consumption is visible
+- Mistakes are punishable (HP reduction) but understandable
+
+---
+3. Boss Design as System Stress Test
+To really understand how these systems come together, it’s useful to look at a specific example: the early boss fight against Armored Core VI: Fires of Rubicon’s Balteus.
+  <img src="images/Bsgd7ZiyzejjZFaX4ErwvP.jpg" width="48%" />
+Balteus is overwhelming at first. It launches constant missile barrages, uses a pulse shield that needs to be broken, and follows up with heavy laser attacks. The screen fills with projectiles, and it feels chaotic.
+But mechanically, it’s actually very structured.
+This fight forces the player to engage with:
+- EN management (you cannot spam Quick Boost forever)
+- Stagger system (breaking posture to create damage windows)
+- Build viability (mobility vs durability)
+- Pattern recognition
+
+When I first approached it with a heavy armor build, I assumed I could tank through most of the damage. On paper, that sounded reasonable. But in practice, the missile tracking and shield pressure meant I was constantly stuck recovering, unable to reposition properly. The system exposed the weakness of my build.
+After switching to a lighter frame with higher burst damage, the fight changed completely. I had less margin for error, but I could control distance and timing much better.
+  <img src="images/1693268863_508_Comment-battre-Ayre-dans-Armored-Core-6-AC6.jpeg" width="48%" />
+  <img src="images/EcDNbgu82Ed2UAjGH2GMnS-1200-80.jpg" width="48%" />
+This is where the design is strong: the boss is not just a difficulty spike. It is a system check. If your understanding of movement, energy, and build synergy is shallow, you fail. If you adapt, the same systems that felt oppressive start to feel manageable.
+
+---
+4. Predictability and Learnability
+Another important mechanical decision is that enemy attacks are predictable.
+Balteus’s missile waves are not random. The laser bursts follow recognizable sequences. The shield phase has a clear logic.
+At first, it feels impossible. But after several attempts, patterns start to emerge.
+This matters because difficulty without structure feels unfair. Here, failure usually has a reason:
+- I ran out of energy.
+- I dodged too early.
+- I stayed airborne too long.
+- I overcommitted to damage.
+
+The game doesn’t hide information. It simply demands timing and execution.
+This predictability turns frustration into learning. The fight transforms from chaos into rhythm. Once I understood the timing of missile volleys and shield breaks, the encounter became less about panic and more about decision-making under pressure.
+The satisfaction comes from that shift. Not just from winning, but from recognizing that improvement was measurable.
+
+---
+**Where the Game Fails (Mechanically)**
+Even though the combat system is tight, there are weaknesses.
+One issue is system clarity.
+The stat screen is dense. Terms like “Attitude Stability” or generator output are not always clearly translated into player experience. For new players, it’s hard to understand why a build fails. Is it weight? EN capacity? Booster efficiency? The game expects experimentation, but it doesn’t fully support understanding.
+Another issue is pacing.
+Balteus appears very early. While it effectively teaches the importance of builds and energy management, it can also act as a hard wall. Some players may feel forced into optimization instead of gradual discovery. Mechanically, it’s sound, but in terms of onboarding, it may be too abrupt.
+
+**What I Would Borrow for Future Projects**
+Looking at my own prototypes in Unity, especially movement-based ones, there are several ideas I would borrow.
+First, I like the idea that preparation is gameplay. Instead of upgrades being simple power increases, they could meaningfully alter how a player interacts with a level. For example, in a maze or parkour prototype, choosing a lighter build could increase speed but reduce stamina recovery, changing how the level is approached.
+Second, tying movement directly to a visible resource is powerful. In Armored Core VI, energy is like stamina. You see it deplete. You feel its absence. That creates tension. I think I could experiment with this in future projects, maybe limiting sprint, jump, or special actions through a clear, readable system that forces trade-offs.
+Third, boss encounters as system exams. Instead of just increasing enemy health, a boss can be designed to test whether players actually understand the mechanics introduced earlier. That creates a sense of progression that is skill-based rather than purely statistical.
+
+**Conclusion**
+Armored Core VI works because its systems are interconnected.
+Movement costs energy.
+Energy limits aggression.
+Build choices define mobility.
+Bosses test mastery of those systems.
+The game is not interesting because of its theme, but because of how tightly its mechanics reinforce each other.
+At its best, every decision has weight.
+At its weakest, the systems are not always clearly explained.
+For me, the most valuable takeaway is that good design is not about adding more features. It is about making systems interact in meaningful, readable ways.
