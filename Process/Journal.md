@@ -399,6 +399,13 @@ Combat revolves around four core movement states:
 - Glide (vertical positioning)
 - Quick Boost (instant dash / dodge)
 
+<p align="center">
+  <img src="images/move_11.gif" width="48%" />
+  <img src="images/move_22.gif" width="48%" />
+  <img src="images/move_33.gif" width="48%" />
+  <img src="images/move_44.gif" width="48%" />
+  </p>
+
 These are not cosmetic animations, they are resource-driven decisions tied to the EN (energy) bar.
 Quick Boost, especially, is critical. It consumes energy instantly and forces a trade-off:
 Dodge now? Or conserve energy for offense?
