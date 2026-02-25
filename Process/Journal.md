@@ -446,20 +446,20 @@ This predictability turns frustration into learning. The fight transforms from c
 The satisfaction comes from that shift. Not just from winning, but from recognizing that improvement was measurable.
 
 ---
-**Where the Game Fails (Mechanically)**
+**Where the Game Fails (Mechanically)**:
 Even though the combat system is tight, there are weaknesses.
 One issue is system clarity.
 The stat screen is dense. Terms like “Attitude Stability” or generator output are not always clearly translated into player experience. For new players, it’s hard to understand why a build fails. Is it weight? EN capacity? Booster efficiency? The game expects experimentation, but it doesn’t fully support understanding.
 Another issue is pacing.
 Balteus appears very early. While it effectively teaches the importance of builds and energy management, it can also act as a hard wall. Some players may feel forced into optimization instead of gradual discovery. Mechanically, it’s sound, but in terms of onboarding, it may be too abrupt.
 
-**What I Would Borrow for Future Projects**
+**What I Would Borrow for Future Projects**:
 Looking at my own prototypes in Unity, especially movement-based ones, there are several ideas I would borrow.
 First, I like the idea that preparation is gameplay. Instead of upgrades being simple power increases, they could meaningfully alter how a player interacts with a level. For example, in a maze or parkour prototype, choosing a lighter build could increase speed but reduce stamina recovery, changing how the level is approached.
 Second, tying movement directly to a visible resource is powerful. In Armored Core VI, energy is like stamina. You see it deplete. You feel its absence. That creates tension. I think I could experiment with this in future projects, maybe limiting sprint, jump, or special actions through a clear, readable system that forces trade-offs.
 Third, boss encounters as system exams. Instead of just increasing enemy health, a boss can be designed to test whether players actually understand the mechanics introduced earlier. That creates a sense of progression that is skill-based rather than purely statistical.
 
-**Conclusion**
+**Conclusion**:
 Armored Core VI works because its systems are interconnected.
 Movement costs energy.
 Energy limits aggression.
