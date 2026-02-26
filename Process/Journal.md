@@ -372,7 +372,7 @@ After comparing them, I decided to prototype the first idea because it is the mo
 The core concept is very simple:
 The enemy only moves when the player moves.
 
-There is no complex combat system, no skill tree, no visible UI. In fact, I am intentionally imagining the game with almost no UI at all. No health bar, no minimap, no objective marker. I think removing interface elements can increase immersion. The player should not feel like they are managing systems — they should feel like they are trapped in a space.
+There is no complex combat system, no skill tree, no visible UI. In fact, I am intentionally imagining the game with almost no UI at all. No health bar, no minimap, no objective marker. I think removing interface elements can increase immersion. The player should not feel like they are managing systems, they should feel like they are trapped in a space.
 
 In this idea, the player only needs:
 - Movement keys
@@ -413,16 +413,20 @@ There is also a connection to horror tropes like the “Weeping Angels” from D
 The closest structural comparison might be early survival horror like Resident Evil, where space is limited and progress is tied to collecting keys and unlocking doors. However, I want to remove combat entirely and reduce the interaction to its most basic form.
 
 ## Prototype
-For this week, I made a very simple paper prototype using a grid and two markers: one for the player, one for the enemy.
+For this week, I made a very simple paper prototype using a grid and two markers: one for the player, one for the enemy. Enemies need to maneuver around the striped grid (a certain movement restriction gives players room for error).
 
 Rules:
 - The player can move one square per turn.
 - Every time the player moves, the enemy also moves one square toward the player.
 - The player must collect three items before reaching the exit.
 
+<p align="center">
+  <img src="images/285317237654832965.jpg" width="48%" />
+</p>
+
 I found myself hesitating before moving. I tried to calculate how far I could go before the enemy would catch up. Sometimes I chose to wait, even though waiting did not help me progress. That feeling of being stuck between safety and necessity felt strong even without visuals.
 
-This confirmed that the mechanic itself is capable of generating pressure.
+This confirmed that the mechanic itself is capable of generating pressure. Interestingly, I also noticed that the items changed how I moved. Instead of heading directly toward the exit, I had to deliberately expose myself to danger to collect them. This created moments where I intentionally “fed” the enemy distance in order to gain progress. That trade-off felt meaningful.
 
 ## What Next
 Next week, I may want to build a very small digital prototype in Unity if I had a chance.
@@ -439,8 +443,9 @@ I also want to experiment with pacing:
 - Should the enemy move at the same speed as the player?
 - Slightly faster?
 - Should it start extremely far away?
+I also want to test whether removing UI truly increases immersion, or if some minimal feedback (like subtle sound cues) is necessary for clarity.
 The goal is not to make a full game yet. It’s to see whether the mechanic still creates tension in real-time space, not just on paper.
-Right now, I think this idea has the strongest mechanical identity out of the three. It feels focused, scalable, and psychologically interesting. If it works digitally, I can later expand it into a maze-like or Backrooms-style environment.
+Right now, I think this idea has the strongest mechanical identity out of the three. It feels focused, scalable, and psychologically interesting.
 But first, I want to test the rule itself.
 
 
