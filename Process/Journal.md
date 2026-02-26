@@ -358,6 +358,94 @@ On the technical side, I want to get better at connecting animation systems with
 
 The main goal is to keep developing the idea that animation is not separate from mechanics. This week was my first attempt at that, and it made me more interested in designing worlds where motion is part of the rules, not just decoration.
 
+# Week 6 – Design Journal: Iterative Prototype 1
+
+**Date:** February 19 – February 26, 2026
+## What
+This week I focused on exploring three different concepts before committing to a direction. Instead of thinking about genre first, I was trying to think about rule systems: what single rule could change the way the player behaves?
+
+My three ideas were:
+- A horror game where the enemy only moves when the player moves.
+- A parkour-based movement game focused on physical flow and rhythm.
+- A Backrooms-style maze puzzle game centered on environmental unease and spatial confusion.
+After comparing them, I decided to prototype the first idea because it is the most mechanically focused and rule-driven.
+The core concept is very simple:
+The enemy only moves when the player moves.
+
+There is no complex combat system, no skill tree, no visible UI. In fact, I am intentionally imagining the game with almost no UI at all. No health bar, no minimap, no objective marker. I think removing interface elements can increase immersion. The player should not feel like they are managing systems — they should feel like they are trapped in a space.
+
+In this idea, the player only needs:
+- Movement keys
+- One interaction key
+
+That’s it.
+
+The goal is to escape. To do that, the player must explore the space and collect a few key items to unlock an exit, similar to the structure of games like the early Resident Evil series, where progress is gated by objects rather than skill checks. But unlike those games, there is no combat here. You cannot fight the enemy. You can only move — or choose not to.
+
+The enemy is also not a jump-scare type creature. It doesn’t suddenly scream or rush the camera. Instead, it begins very far away. At first, the player might not even understand what it is. Maybe it’s just a silhouette in a hallway. Then, after moving once, they notice something feels different. It’s slightly closer.
+
+Over time, the player realizes the rule:
+When they move, it moves.
+
+That realization is the real horror moment.
+
+From that point on, movement becomes a decision. Every step forward means allowing the threat to advance. Stillness becomes a temporary safety, but also a trap, because staying still means you cannot reach the items you need to escape.
+
+I like this because the tension does not come from surprise. It comes from awareness. The enemy doesn’t need to be loud or visually extreme. It just needs to be persistent and quiet.
+
+## Design Values
+What I care about in this concept:
+
+- Minimalism
+- Mechanical tension instead of scripted horror
+- Psychological pressure instead of jump scares
+- Player hesitation as gameplay
+
+I am especially interested in how limitation creates anxiety. In most games, movement feels empowering. Here, movement is risky. It forces the player to calculate distance, space, and timing constantly.
+
+I also think removing UI reinforces this. If there is no health bar, the player doesn’t know exactly how close they are to death. If there is no distance indicator, they must judge visually. That uncertainty can make the experience feel more physical and immediate.
+
+## Precedents
+This idea is loosely related to the VR game Superhot (2016), where time only moves when the player moves. But in that game, the mechanic empowers the player. In my idea, the mechanic creates vulnerability.
+
+There is also a connection to horror tropes like the “Weeping Angels” from Doctor Who, where creatures move only when not observed. But again, my version focuses less on visibility and more on action itself.
+
+The closest structural comparison might be early survival horror like Resident Evil, where space is limited and progress is tied to collecting keys and unlocking doors. However, I want to remove combat entirely and reduce the interaction to its most basic form.
+
+## Prototype
+For this week, I made a very simple paper prototype using a grid and two markers: one for the player, one for the enemy.
+
+Rules:
+- The player can move one square per turn.
+- Every time the player moves, the enemy also moves one square toward the player.
+- The player must collect three items before reaching the exit.
+
+I found myself hesitating before moving. I tried to calculate how far I could go before the enemy would catch up. Sometimes I chose to wait, even though waiting did not help me progress. That feeling of being stuck between safety and necessity felt strong even without visuals.
+
+This confirmed that the mechanic itself is capable of generating pressure.
+
+## What Next
+Next week, I may want to build a very small digital prototype in Unity if I had a chance.
+I will:
+- Create a simple dark environment (maybe just corridors and rooms).
+
+- Implement the movement-linked enemy behavior.
+
+- Add 2–3 collectible items that unlock a final door.
+
+- Test how lighting affects the experience (for example, making the enemy barely visible at first).
+
+I also want to experiment with pacing:
+- Should the enemy move at the same speed as the player?
+- Slightly faster?
+- Should it start extremely far away?
+The goal is not to make a full game yet. It’s to see whether the mechanic still creates tension in real-time space, not just on paper.
+Right now, I think this idea has the strongest mechanical identity out of the three. It feels focused, scalable, and psychologically interesting. If it works digitally, I can later expand it into a maze-like or Backrooms-style environment.
+But first, I want to test the rule itself.
+
+
+
+
 
 # Extra Credit – Design Journal - Game Analysis
 ## Game Analysis: Armored Core VI
