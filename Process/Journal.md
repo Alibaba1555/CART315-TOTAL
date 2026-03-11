@@ -569,3 +569,91 @@ The game is not interesting because of its theme, but because of how tightly its
 At its best, every decision has weight.
 At its weakest, the systems are not always clearly explained.
 For me, the most valuable takeaway is that good design is not about adding more features. It is about making systems interact in meaningful, readable ways.
+
+# Week 7 – Reading week
+
+**Date:**: February 26 – March 5, 2026
+
+
+
+# Week 8 – Design Journal: Iterative Prototype 2
+
+**Date:**: March 5 – March 12, 2026
+## What
+This week I focused on refining the core mechanic and expanding the prototype idea into a more complete game structure. Last week I mainly explored the rule system through a paper prototype: the enemy only moves when the player moves. The test confirmed that this rule alone can create tension, because every step forward also allows the threat to advance.
+
+However, while thinking more about how the game would work in a digital environment, I started questioning whether constantly seeing the enemy follow the player would actually remain scary. If the player can always see the enemy walking behind them, it might quickly stop feeling like horror and instead become a simple distance management problem. The player might begin to treat the enemy like a predictable AI rather than an unknown threat.
+
+Because of this, I began exploring alternative ways the enemy could move or appear in the space while still following the same core rule.
+
+The first idea is that the enemy should not always remain visible to the player. Instead of continuously following behind the player, it could appear in different parts of the environment. For example, the player might see it briefly at the end of a hallway, at the top of a staircase, or standing in a doorway. After the player moves again, the enemy could appear somewhere closer but not necessarily along the same path. This would create the feeling that something is moving through the house with the player rather than simply chasing them from behind.
+
+The second possibility is inspired by horror tropes where creatures only move when they are not observed. In this version, the enemy would still move only when the player moves, but only if the player is not directly looking at it. If the player turns around and looks at the enemy, it would freeze in place. This would encourage players to constantly check behind them, creating a different kind of tension.
+
+Another variation I considered is a teleport-style approach. Instead of physically walking toward the player, the enemy could jump between predetermined locations. For instance, the player might first see it standing at the end of a corridor. After moving forward and looking back, it suddenly appears much closer, perhaps near a doorway or staircase. This would create the unsettling feeling that space itself is shifting around the player.
+
+Finally, I also considered using sound as the primary indicator of the enemy's presence. Instead of always showing the creature visually, the game could rely on footsteps, breathing, dragging sounds, or doors moving somewhere in the house. The player might occasionally catch a glimpse of the enemy, but most of the time they would only hear it moving somewhere nearby.
+
+At the moment, I am leaning toward combining several of these ideas. The enemy would not constantly remain visible, and the player would mainly rely on sound and occasional visual encounters to understand where it might be.
+
+## Expanding the Game Structure
+In addition to refining the enemy behavior, I also started outlining the overall structure of the game.
+The game does not need to be very large. I am imagining something closer to a small contained experience lasting around 15–30 minutes. The environment would be a multi-floor mansion, somewhat similar to the layout of houses in early survival horror games.
+The structure might look something like this:
+- First floor
+- Entrance hall
+- Living room
+- Kitchen
+- Study
+- Second floor
+- Bedrooms
+- Research room
+- Storage areas
+- Basement
+- Laboratory space
+- Final exit
+The player would need to explore different parts of the house and collect several key items in order to unlock the final exit.
+Like early Resident Evil games, progress would be gated by objects rather than by combat or skill-based challenges. However, unlike those games, the player cannot fight the threat in any way. Exploration itself becomes the main source of risk.
+
+## Player Mechanics
+I want to keep the player controls extremely simple. The player would only have three main actions:
+- Movement (WASD)
+- Run (Shift)
+- Interact (E)
+There would be no weapons, no inventory management complexity, and almost no user interface elements.
+The goal is simply to explore the house, find the required items, and escape.
+
+## Hidden Stamina System
+
+One system I am interested in experimenting with is a hidden stamina system.
+Instead of showing a stamina bar on screen, the player’s physical state would be communicated through audio and visual feedback.
+
+For example, when the player runs for too long:
+- Breathing sounds become heavier
+- The camera begins to shake slightly
+- The character’s movement becomes less stable and slow
+The lower the stamina, the stronger these effects become.
+This approach keeps the interface minimal while still giving the player feedback about their condition. It may also make the experience feel more physical, because the player has to interpret sensory cues rather than reading numbers or meters.
+
+## Narrative Idea
+I also began thinking about a possible background story for the environment.
+One idea is that the player character is a federal investigator who has come to examine a case connected to the house.
+Fifteen years ago, the building operated as a private medical facility or treatment center. One night, all of the patients disappeared. The investigation at the time produced no clear explanation, and the case was eventually closed.
+Recently, however, reports have surfaced that lights have been seen inside the abandoned building at night. Because of this, the player has been sent to investigate the location again.
+Rather than telling the story directly through dialogue, most of the narrative would be communicated through environmental details such as documents, medical files, notes, and fragments of records found throughout the house.
+
+## Design Reflection
+One important realization this week is that horror often comes from uncertainty rather than direct threat. If the enemy is always clearly visible and behaving predictably, the player may begin to treat the game like a system they can solve.
+By contrast, when the enemy is only partially visible and sometimes hidden, the player cannot easily calculate the exact situation. They have to rely on intuition and incomplete information.
+Because the core rule of this project is already very simple, I think adding ambiguity to the enemy’s presence may help strengthen the psychological tension without adding mechanical complexity.
+
+## What Next
+For the next step, I want to start building a very small digital prototype to test these ideas in a real-time environment.
+The main goals for the next iteration will be:
+- Build a simple house interior with a few connected rooms and corridors.
+- Implement the basic rule where the enemy moves when the player moves.
+- Experiment with different enemy presentation methods (visible movement, teleportation, and sound cues).
+- Add two or three collectible items and a locked exit to test the progression structure.
+- Begin testing how lighting and visibility affect the tension of the experience.
+At this stage, the goal is not to produce a finished game. Instead, I want to see whether the core rule continues to generate tension when translated from a paper prototype into a playable 3D space.
+
