@@ -612,6 +612,7 @@ The structure might look something like this:
 - Basement
 - Laboratory space
 - Final exit
+
 The player would need to explore different parts of the house and collect several key items in order to unlock the final exit.
 Like early Resident Evil games, progress would be gated by objects rather than by combat or skill-based challenges. However, unlike those games, the player cannot fight the threat in any way. Exploration itself becomes the main source of risk.
 
