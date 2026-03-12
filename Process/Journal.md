@@ -618,6 +618,14 @@ Like early Resident Evil games, progress would be gated by objects rather than b
 
 Environnement prototype(Junming): https://github.com/LE7ELS001/CART-315/blob/main/Process/Journal.md#march-5-11---week-8---design-journal-iterative-prototype-2
 
+<p align="center">
+  
+  <img src="images/week8-image5.png" width="48%" />
+  <img src="images/week8-image6.png" width="48%" />
+  <img src="images/week8-image3.png" width="48%" />
+  <img src="images/week8-image4.png" width="48%" />
+</p>
+
 ## Player Mechanics
 I want to keep the player controls extremely simple. The player would only have three main actions:
 - Movement (WASD)
