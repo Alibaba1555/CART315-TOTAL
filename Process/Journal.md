@@ -614,6 +614,7 @@ The structure might look something like this:
 - Final exit
 The player would need to explore different parts of the house and collect several key items in order to unlock the final exit.
 Like early Resident Evil games, progress would be gated by objects rather than by combat or skill-based challenges. However, unlike those games, the player cannot fight the threat in any way. Exploration itself becomes the main source of risk.
+Environnement prototype(Junming): https://github.com/LE7ELS001/CART-315/blob/main/Process/Journal.md#march-5-11---week-8---design-journal-iterative-prototype-2
 
 ## Player Mechanics
 I want to keep the player controls extremely simple. The player would only have three main actions:
