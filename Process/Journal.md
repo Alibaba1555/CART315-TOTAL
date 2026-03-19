@@ -668,3 +668,51 @@ The main goals for the next iteration will be:
 - Begin testing how lighting and visibility affect the tension of the experience.
 At this stage, the goal is not to produce a finished game. Instead, I want to see whether the core rule continues to generate tension when translated from a paper prototype into a playable 3D space.
 
+# Week 9 – Design Journal: Iterative Prototype 3
+
+**Date:**: March 12 – March 19, 2026
+
+## What 
+This week I focused on continuing the transition from a conceptual prototype into a playable Unity environment. Since I am now working on the project individually, I decided to narrow the scope and prioritize building a small but functional gameplay loop.
+
+I spent time organizing the environment using online assets and establishing a consistent visual setting. The space now resembles an abandoned medical facility, with corridors, rooms, and objects such as beds, wheelchairs, and lockers. I also implemented basic first-person movement and added a flashlight mechanic. The player can toggle the flashlight using the mouse, which allows them to navigate and reveal details in dark areas.
+
+Compared to previous weeks, the project is no longer just an idea or paper-based system. It is now a navigable 3D space where I can start testing player experience more directly.
+<p align="center">
+  
+  <img src="images/week9 4.png" width="100%" />
+  <img src="images/week9 5.png" width="100%" />
+
+</p>
+
+## Why
+Because I am working alone and this is my first time building a game in Unity, I realized that my initial scope was too ambitious. Earlier, I considered multiple enemy behaviors, large environments, and layered systems, but trying to implement all of these at once would likely slow down progress.
+
+Instead, I decided to focus on a smaller, more achievable goal: creating a simple but complete interaction loop. This means building a structure where the player can explore, interact with objects, and unlock progression.
+
+At this stage, I am prioritizing clarity and functionality over complexity. Establishing a working foundation is more important than adding advanced mechanics too early.
+
+## Reflection
+One important realization this week is that the environment itself already contributes strongly to the atmosphere. Even without any enemy present, the combination of darkness, limited visibility, and the flashlight creates a sense of tension.
+
+This made me reconsider how much is actually needed to create a horror experience. Instead of relying on complex AI or constant threats, the feeling of uncertainty can already emerge from the space and the player’s limited perception.
+
+At the same time, I noticed that without interaction, the experience still feels incomplete. The player can move and look around, but there is no clear goal or progression yet. Because of this, the next step is to introduce simple interactions that give the player purpose.
+<p align="center">
+  
+  <img src="images/week9 1.png" width="48%" />
+  <img src="images/week9 2.png" width="48%" />
+  <img src="images/week9 3.png" width="100%" />
+
+</p>
+
+## What Next
+Next week, I will focus on implementing basic object interaction and progression systems.
+The main goals are:
+- Add a simple interaction system (pressing a key to interact with objects)
+- Implement collectible items such as keys
+- Create at least one locked door that requires a key to open
+- Provide basic on-screen feedback when the player can interact with something
+
+The aim is to build a minimal gameplay loop: exploration → interaction → unlocking progression.
+This will allow me to test whether the space not only feels atmospheric, but also functions as a playable experience.
