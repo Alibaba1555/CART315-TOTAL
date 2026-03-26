@@ -730,3 +730,27 @@ I spent most of the week building the basic player action system. I implemented 
 One important part is that these attacks can be chained together. After a heavy attack, the player can immediately continue into a light attack combo without delay, and the same works in reverse. This makes the combat feel more fluid and responsive.
 
 I also attached a sword asset to the character’s hand, so the animations look more natural and readable in the game space.
+
+## Why
+I decided to change direction because my previous Unity project was becoming difficult to manage within the time I have. As I worked on it alone, I realized that building a full horror system with environment design, interaction, and AI would take too long to complete properly.
+
+By switching to a Souls-like combat prototype, I can focus on a clearer and more contained system: player actions and combat mechanics. This allows me to build something that is still meaningful but more achievable.
+
+Also, I am personally more interested in action-based gameplay, so this change helps me stay motivated and engaged with the project.
+
+## Reflection
+This week helped me understand the importance of scope and choosing the right project direction. Even though I invested time in the previous idea, it was not realistic to complete it at the level I wanted.
+
+The new combat system already feels more interactive and satisfying. Compared to the horror prototype, where the experience depended heavily on atmosphere, this project gives immediate feedback through player actions.
+
+However, right now the system is still very incomplete. There are no enemies yet, so the combat does not have real gameplay meaning. It feels more like testing animations rather than playing a game.
+
+## What Next
+Next week, I plan to start building the enemy system and basic gameplay loop. My main goals are:
+
+Define at least two types of enemies (a basic enemy and one boss)
+Begin implementing enemy animations and simple behavior
+Create interaction between player attacks and enemies
+Start designing a simple level flow from point A to point B
+
+The goal is to build a short but complete experience, around 10 minutes long, where the player can fight enemies and reach an ending point.
