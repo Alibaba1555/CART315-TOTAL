@@ -726,7 +726,14 @@ This will allow me to test whether the space not only feels atmospheric, but als
 This week I made a major change to my project direction. I decided to stop developing the Unity horror prototype and instead switch to a new project using Unreal Engine 4. The new idea is to create a small Souls-like combat experience.
 
 I spent most of the week building the basic player action system. I implemented a dodge roll using the space bar, which allows the player to quickly avoid attacks. I also added combat animations, including two heavy attacks (right mouse button) and four light attacks (left mouse button).
+<p align="center">
+  
+  <img src="images/week10 1.gif" width="48%" />
+  <img src="images/week10 2.gif" width="48%" />
+  <img src="images/week10 3.gif" width="48%" />
+  <img src="images/week10 4.gif" width="48%" />
 
+</p>
 One important part is that these attacks can be chained together. After a heavy attack, the player can immediately continue into a light attack combo without delay, and the same works in reverse. This makes the combat feel more fluid and responsive.
 
 I also attached a sword asset to the character’s hand, so the animations look more natural and readable in the game space.
