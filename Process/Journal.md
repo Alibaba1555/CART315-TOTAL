@@ -716,3 +716,17 @@ The main goals are:
 
 The aim is to build a minimal gameplay loop: exploration → interaction → unlocking progression.
 This will allow me to test whether the space not only feels atmospheric, but also functions as a playable experience.
+
+
+# Week 10 – Design Journal: Iterative Prototype 4
+
+**Date:**: March 19 – March 26, 2026
+
+## What
+This week I made a major change to my project direction. I decided to stop developing the Unity horror prototype and instead switch to a new project using Unreal Engine 4. The new idea is to create a small Souls-like combat experience.
+
+I spent most of the week building the basic player action system. I implemented a dodge roll using the space bar, which allows the player to quickly avoid attacks. I also added combat animations, including two heavy attacks (right mouse button) and four light attacks (left mouse button).
+
+One important part is that these attacks can be chained together. After a heavy attack, the player can immediately continue into a light attack combo without delay, and the same works in reverse. This makes the combat feel more fluid and responsive.
+
+I also attached a sword asset to the character’s hand, so the animations look more natural and readable in the game space.
