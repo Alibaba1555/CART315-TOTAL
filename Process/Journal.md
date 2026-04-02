@@ -796,6 +796,12 @@ By adding enemies and a simple level structure, the player’s actions now have 
 
 I intentionally kept the difficulty low. Since the main goal of this project is to demonstrate the combat system, I wanted to avoid frustration and instead allow the player to experience the full flow from start to finish.
 
+<p align="center">
+  <img src="images/week11 1.png" width="100%" />
+  <img src="images/week11 2.png" width="100%" />
+  <img src="images/week11 3.png" width="100%" />
+</p>
+
 ## Reflection
 This week, I feel that the project has finally reached a complete state.
 
@@ -804,6 +810,9 @@ Compared to last week, where the system felt like animation testing, the additio
 One thing I noticed is that enemy behavior is still quite basic. The AI does not feel very intelligent, and the combat lacks variation. However, given the scope and time constraints, I think this level of complexity is appropriate.
 
 Another important realization is that a “complete small game” is more valuable than an unfinished ambitious idea. This project is simple, but it successfully demonstrates a core gameplay loop.
+<p align="center">
+  <img src="images/week11 4.png" width="100%" />
+</p>
 
 ## What Next
 At this point, I consider the project mostly complete. If I have more time, I would like to improve the overall experience by:
