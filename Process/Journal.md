@@ -773,3 +773,44 @@ The goal is to build a short but complete experience, around 10 minutes long, wh
 <p align="center">
   <img src="images/week10 8.png" width="100%" />
 </p>
+
+# Week 11 – Design Journal: Iterative Prototype 5
+
+**Date:**: Date: March 26 – April 2, 2026
+
+## What
+This week, I continued developing the combat prototype and focused on building the enemy system and completing a basic gameplay loop.
+
+I implemented a skeleton enemy with simple behavior. When the enemy detects the player, it will chase and attack. Its movement speed is slightly slower than the player, so the player has the option to escape. If the player moves beyond a certain distance, the enemy will stop chasing and return to an idle state. The skeleton also has a basic attack animation.
+
+In addition, I created a boss enemy. The boss has higher health and a set of combo attack animations. Its behavior logic is similar to the basic enemy, but it feels more threatening due to its damage and attack patterns.
+
+I also completed the level structure from point A to point B. The player starts at the spawn area, where I added simple instructions and a task prompt. The goal is to move forward, fight enemies, and reach a door behind the boss. After passing through the door, the player enters a church space where a “Thank you for playing” message appears.
+
+For the player system, I added a health setup. The player has around 50 health points. Regular enemies deal 1 damage, while the boss deals 3 damage. Because of this, it is currently difficult for the player to die, making the experience more forgiving.
+
+## Why
+This week’s goal was to turn the combat system into a playable experience rather than just an animation test.
+
+By adding enemies and a simple level structure, the player’s actions now have clear meaning. Combat is no longer isolated but connected to progression. The addition of a boss also creates a small climax before reaching the end of the level.
+
+I intentionally kept the difficulty low. Since the main goal of this project is to demonstrate the combat system, I wanted to avoid frustration and instead allow the player to experience the full flow from start to finish.
+
+## Reflection
+This week, I feel that the project has finally reached a complete state.
+
+Compared to last week, where the system felt like animation testing, the addition of enemies and level progression makes it feel like an actual game. Even though the mechanics are simple, the experience now has a clear beginning, middle, and end.
+
+One thing I noticed is that enemy behavior is still quite basic. The AI does not feel very intelligent, and the combat lacks variation. However, given the scope and time constraints, I think this level of complexity is appropriate.
+
+Another important realization is that a “complete small game” is more valuable than an unfinished ambitious idea. This project is simple, but it successfully demonstrates a core gameplay loop.
+
+## What Next
+At this point, I consider the project mostly complete. If I have more time, I would like to improve the overall experience by:
+
+Refining enemy AI behavior (more variation and reaction)
+Improving combat feedback (hit effects, sound, screen feedback)
+Balancing difficulty to make combat more engaging
+Polishing the environment and atmosphere
+
+The main goal now is polish rather than adding new systems.
