@@ -788,6 +788,11 @@ In addition, I created a boss enemy. The boss has higher health and a set of com
 I also completed the level structure from point A to point B. The player starts at the spawn area, where I added simple instructions and a task prompt. The goal is to move forward, fight enemies, and reach a door behind the boss. After passing through the door, the player enters a church space where a “Thank you for playing” message appears.
 
 For the player system, I added a health setup. The player has around 50 health points. Regular enemies deal 1 damage, while the boss deals 3 damage. Because of this, it is currently difficult for the player to die, making the experience more forgiving.
+<p align="center">
+  <img src="images/week11 51.gif" width="100%" />
+  <img src="images/week11 61.gif" width="100%" />
+  <img src="images/week11 71.gif" width="100%" />
+</p>
 
 ## Why
 This week’s goal was to turn the combat system into a playable experience rather than just an animation test.
