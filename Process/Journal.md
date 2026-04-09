@@ -828,3 +828,123 @@ Balancing difficulty to make combat more engaging
 Polishing the environment and atmosphere
 
 The main goal now is polish rather than adding new systems.
+
+# Week 12 – Design Journal: Final Iterative Prototype
+
+**Date:**: April 2 – April 9, 2026
+
+## What
+For the final prototype, I focused on consolidating everything I developed over the past weeks into a small but complete playable experience.
+
+The project is now a short third-person combat game built in Unreal Engine 4. The core system includes:
+
+- Player movement and dodge roll
+- Light and heavy attack combos
+- Chainable attack system
+- Basic enemy AI (skeleton enemy)
+- Boss enemy with higher health and combo attacks
+- Player health system
+- A simple level progression from start to end
+
+The player starts in a small area with minimal instruction, then moves forward through the level, encounters enemies, and finally fights a boss before reaching the ending space (a church-like area with a “Thank you for playing” message).
+<p align="center">
+  <img src="images/week12 1.png" width="100%" />
+
+</p>
+
+Compared to earlier prototypes, this version is no longer just testing isolated mechanics. It is now structured as a complete gameplay loop:
+
+Move → Fight → Survive → Progress → Reach ending
+
+I also made small adjustments to improve the feel of combat, such as making animations more readable and ensuring that attack chaining feels responsive rather than delayed.
+
+## Why
+At this stage, my goal was not to add more systems, but to bring everything together into a cohesive experience.
+
+Earlier in the semester, my work was more fragmented. For example:
+
+Week 6–9 focused on a horror concept with a strong rule system
+Week 10 focused on player combat mechanics
+Week 11 introduced enemies and level structure
+
+However, none of these alone felt like a “game.” They were experiments.
+
+This final prototype is important because it represents a shift from:
+
+testing ideas → building an experience
+
+I also made a conscious decision to keep the scope small. Instead of trying to expand the system (more enemies, more mechanics, bigger level), I focused on making sure the existing elements work together.
+
+This aligns with one of the key lessons I learned during this course:
+
+A small, complete system is more valuable than a large, unfinished one.
+
+<p align="center">
+  <img src="images/week12 2.png" width="100%" />
+  <img src="images/week12 3.png" width="100%" />
+</p>
+
+## Reflection
+Looking back, the most important change in this project is not technical, but conceptual.
+
+At the beginning, I was interested in ideas, especially rule-based systems like “the enemy only moves when the player moves.” That idea was strong, but difficult to fully realize within the time and technical constraints.
+
+Switching to the combat prototype felt like giving up something at first. But in reality, it allowed me to actually finish something.
+
+This made me realize that:
+
+Good ideas are not enough
+Execution and scope matter more than originality
+
+The current prototype is simple. The enemy AI is basic. The combat system lacks depth. The level design is linear.
+
+But at the same time, it works.
+
+There is a clear beginning, middle, and end.
+The player understands what to do.
+Actions have feedback.
+Progression exists.
+
+That alone makes it feel more like a game than my earlier, more ambitious concepts.
+
+Another thing I noticed is how important feedback and interaction are.
+
+In the horror prototype, tension came from atmosphere and uncertainty.
+In this combat prototype, engagement comes from responsiveness:
+
+- pressing attack → immediate animation
+- hitting enemy → visible reaction (no reaction)
+- dodging → clear movement
+
+This creates a different kind of experience, more direct, less psychological, but also more immediately satisfying.
+
+## What Could Be Better
+Even though the prototype is complete, there are several areas that could be improved:
+
+1. Enemy Behavior
+The AI is very basic. Enemies mostly chase and attack without variation.
+This makes combat predictable and less engaging over time.
+
+2. Combat Depth
+Right now, combat is mostly about timing attacks and dodging.
+There is no stamina system, no blocking, and no meaningful trade-offs.
+
+3. Feedback & Polish
+There is limited visual and audio feedback:
+
+no strong hit effects
+no screen feedback
+
+Because of this, combat sometimes feels less impactful than it should.
+
+4. Difficulty Balance
+The game is currently too easy.
+The player has enough health that failure is unlikely, which reduces tension.
+
+## Final Thought
+This project helped me understand that game design is not just about ideas or mechanics, but about how those elements come together into a playable whole.
+
+Earlier in the semester, I was trying to design something interesting.
+Now, I am trying to design something that works.
+
+And for this project, I think reaching that point is the most important result.
