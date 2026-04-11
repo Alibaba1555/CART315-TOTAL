@@ -959,7 +959,7 @@ Looking back at this semester, I feel like the biggest change is how I think abo
 At that stage, I cared a lot about whether the idea itself was “cool.” And honestly, I still think that idea was strong. When I tested it on paper, it already created tension. I found myself hesitating before moving, which means the mechanic was working.
 
 <p align="center">
-  <img src="images/285317237654832965.jpg" width="100%" />
+  <img src="images/285317237654832965.jpg" width="48%" />
   <img src="images/week9 4.png" width="100%" />
 </p>
 But when I tried to think about actually building it, I realized that having a good idea is not the same as having a doable project.
