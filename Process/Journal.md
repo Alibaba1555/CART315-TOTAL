@@ -948,3 +948,117 @@ Earlier in the semester, I was trying to design something interesting.
 Now, I am trying to design something that works.
 
 And for this project, I think reaching that point is the most important result.
+
+
+# Design Journal: Final Reflection
+
+**Date:**: April 11, 2026
+
+Looking back at this semester, I feel like the biggest change is how I think about making games. At the beginning, I was mostly focused on ideas. I wanted something that felt original or interesting, especially rule-based concepts like “the enemy only moves when the player moves.”
+
+At that stage, I cared a lot about whether the idea itself was “cool.” And honestly, I still think that idea was strong. When I tested it on paper, it already created tension. I found myself hesitating before moving, which means the mechanic was working.
+
+<p align="center">
+  <img src="images/285317237654832965.jpg" width="100%" />
+  <img src="images/week9 4.png" width="100%" />
+</p>
+But when I tried to think about actually building it, I realized that having a good idea is not the same as having a doable project.
+
+## What Changed During the Process
+As the weeks went on, I started to understand prototyping in a different way.
+
+Before, I thought prototyping meant slowly building toward a finished game.
+But now I see it more as testing questions.
+
+Like:
+
+- does this mechanic actually work?
+- is the player confused?
+- is this fun or just interesting in theory?
+
+Once I started thinking like that, it became easier to make decisions. Instead of trying to do everything, I could focus on one problem at a time.
+
+## The Big Decision (Switching Project)
+
+The biggest turning point was when I decided to drop the Unity horror project and switch to Unreal.
+
+At first, it honestly felt like I was giving up on a better idea. The horror concept felt more unique, more “designed.”
+
+But the problem was scope.
+
+That project needed too many things at once:
+
+- environment
+- lighting
+- interaction
+- AI
+- pacing
+
+And I was doing it alone. It just wasn’t realistic.
+
+Switching to the combat prototype made things much clearer. Instead of trying to build everything, I focused on one core system: player actions + combat.
+
+<p align="center">
+  <img src="images/week9 2.png" width="100%" />
+  <img src="images/week10 7.png" width="100%" />
+</p>
+
+And that’s when things actually started to come together.
+
+## From “Testing Stuff” to “Making a Game”
+
+Earlier in the semester, most of my work felt like experiments.
+
+I had:
+
+- movement tests
+- animation tests
+- environment tests
+
+<p align="center">
+  <img src="images/02.gif" width="100%" />
+  <img src="images/week8-image4.png" width="48%" />
+  <img src="images/week10 1.gif" width="48%" />
+</p>
+
+They worked individually, but they didn’t feel like a game.
+
+The final prototype is the first time everything connects into something complete.
+
+There is a clear flow:
+move → fight → survive → reach the end
+
+It’s simple, but it works. And that made a big difference.
+
+## What I Learned
+
+A few things really stuck with me from this process:
+
+1. Scope is everything
+Not just a production problem, but a design decision. If the scope is wrong, the project just doesn’t work.
+
+2. A small finished game > a big unfinished idea
+This is probably the most important one for me.
+
+3. Mechanics need context
+A system by itself isn’t enough. It needs goals, consequences, and structure to feel meaningful.
+
+4. Feedback matters a lot
+In the combat prototype, even simple actions feel better because there’s clear response. That’s something my earlier prototypes were missing.
+
+## Final Thoughts
+
+I don’t think my final game is anything amazing.
+The AI is simple, the combat is basic, and the level is very linear.
+
+But it’s complete.
+
+And compared to where I started — just thinking about ideas — I think that’s a much bigger improvement.
+
+At the beginning, I was asking:
+“Is this idea interesting?”
+
+Now I’m thinking more about:
+“Does this actually work when someone plays it?”
+
+The shift is probably the most important thing I got from this course.
