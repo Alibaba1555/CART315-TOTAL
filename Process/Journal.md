@@ -952,7 +952,7 @@ And for this project, I think reaching that point is the most important result.
 
 # Design Journal: Final Reflection
 
-**Date:**: April 11, 2026
+**Date:** April 11, 2026
 
 Looking back at this semester, I feel like the biggest change is how I think about making games. At the beginning, I was mostly focused on ideas. I wanted something that felt original or interesting, especially rule-based concepts like “the enemy only moves when the player moves.”
 
