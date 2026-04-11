@@ -1061,4 +1061,4 @@ At the beginning, I was asking:
 Now I’m thinking more about:
 “Does this actually work when someone plays it?”
 
-The shift is probably the most important thing I got from this course.
+The shift is probably the most important thing I got from this project experience.
